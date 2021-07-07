@@ -21,5 +21,6 @@ function App() {
     </div>
   );
 }
+// 2 ways - Functional Component and Class Based Components
 
 export default App;
