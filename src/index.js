@@ -5,10 +5,14 @@ import App from './App';
 import NewComp from './NewComp';
 import DateTime from './DateTime';
 import reportWebVitals from './reportWebVitals';
+import EventDemo from './EventDemo';
+import UserInput from './UserInput';
 
 ReactDOM.render(
   <React.StrictMode>
-    <DateTime />
+    {/* <DateTime /> */}
+    {/* <EventDemo /> */}
+    <UserInput />
   </React.StrictMode>,
   document.getElementById('root')
 );
