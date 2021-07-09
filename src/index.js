@@ -2,17 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import NewComp from './NewComp';
-import DateTime from './DateTime';
 import reportWebVitals from './reportWebVitals';
-import EventDemo from './EventDemo';
-import UserInput from './UserInput';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <DateTime /> */}
-    {/* <EventDemo /> */}
-    <UserInput />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
